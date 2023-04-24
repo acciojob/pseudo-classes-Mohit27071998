@@ -1,1 +1,25 @@
 /*  your css code here. If applicable */
+:root{
+	background-color: skyblue;
+}
+
+p:first-child{
+	background-color:black;
+	color:white;
+}
+p:last-of-type{
+	color:red;
+}
+li:nth-child(2n){
+	background-color:slategray;
+}
+li:nth-child(3){
+	background-color:pink;
+}
+li:first-child{
+	background-color:white;
+}li:last-child{
+	background-color:white;
+}
+
+
